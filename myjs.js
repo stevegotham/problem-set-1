@@ -23,7 +23,7 @@ var wordCount = function(string) {
 
 // Write a function called primeTime that takes a single number parameter and returns true if the parameter is a prime number, otherwise false. The range will be between 1 and 216.
 
-function primmeTime(num) {
+function primeTime(num) {
 	var x = Math.sqrt(num);
 	if (num % 2 === 0 && num !==2 || num === 1) {
 		return false;
